@@ -17,11 +17,13 @@ class ProductViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    productNameLabel.text = product?.name
+     productNameLabel.text = product?.name
+    
+    self.title = productNameLabel.text
     
     if let imageName = product?.fullscreenImageName {
       productImageView.image = UIImage(named: imageName)
-    }
+    }    
   }
 
   @IBAction func addToCartPressed(_ sender: AnyObject) {

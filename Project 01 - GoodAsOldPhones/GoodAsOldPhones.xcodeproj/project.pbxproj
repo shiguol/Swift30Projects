@@ -105,7 +105,9 @@
 				TargetAttributes = {
 					197C21091C6686EE00BCCAE8 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3TLRX8QDF7;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -267,9 +269,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3TLRX8QDF7;
 				INFOPLIST_FILE = GoodAsOldPhones/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.codeschool.GoodAsOldPhones;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeschool.GoodAsOldPhones.sa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -279,9 +283,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3TLRX8QDF7;
 				INFOPLIST_FILE = GoodAsOldPhones/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.codeschool.GoodAsOldPhones;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeschool.GoodAsOldPhones.sa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
