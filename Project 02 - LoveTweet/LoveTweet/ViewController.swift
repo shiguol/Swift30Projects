@@ -25,6 +25,7 @@ class ViewController: UIViewController {
   }
   
   @IBAction func salaryHandler(_ sender: AnyObject) {
+    // Downcasting (for AnyObject to UISlider
     let slider = sender as! UISlider
     let i = Int(slider.value)
     salaryLabel.text = "$\(i)k"
