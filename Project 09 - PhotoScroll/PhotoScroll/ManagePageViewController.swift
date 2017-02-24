@@ -42,7 +42,8 @@ class ManagePageViewController: UIPageViewController {
 }
 
 extension ManagePageViewController: UIPageViewControllerDataSource {
-  func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
+  func pageViewController(_ pageViewController: UIPageViewController,
+                          viewControllerBefore viewController: UIViewController) -> UIViewController? {
     
     if let viewController = viewController as? PhotoCommentViewController {
       guard let index = viewController.photoIndex, index != 0 else {
@@ -53,7 +54,8 @@ extension ManagePageViewController: UIPageViewControllerDataSource {
     return nil
   }
   
-  func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
+  func pageViewController(_ pageViewController: UIPageViewController,
+                          viewControllerAfter viewController: UIViewController) -> UIViewController? {
     
     if let viewController = viewController as? PhotoCommentViewController {
       guard let index = viewController.photoIndex, index != photos.count - 1 else {
