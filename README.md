@@ -32,12 +32,12 @@ For developers, I have a README file and screenshots for every single project, y
 
 ## Whats's next?
 
-I will maintain the project with latest syntax and most advanced code style. More code comments is going to be covered as well.
+I will maintain the project with latest syntax and most advanced code style. More code comments are going to be covered as well.
 
 Also, **unit tests** will be added to ensure the quality of the codebase.
 
 ## Contributors
-[chenluffy](https://github.com/ChengLuffy), and [azureland](https://github.com/azureland), thank you for your assistance in optimizing the repo.
+[chenluffy](https://github.com/ChengLuffy), [LargeShrimp](https://github.com/LargeShrimp) and [azureland](https://github.com/azureland), thank you for your assistance in optimizing the repo.
 
 ## Reach me ##
 
